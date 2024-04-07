@@ -15,10 +15,10 @@ pipeline {
         stage('Run code'){
             steps {
                 sh 'pwd'
-                sh 'chmod 777 /var/jenkins_home/workspace/pipeline_job/cognyte/example.sh'
-                sh '/var/jenkins_home/workspace/pipeline_job/cognyte/example.sh'
-                sh 'chmod 777 /var/jenkins_home/workspace/pipeline_job/cognyte/example.py'
-                sh 'python3 /var/jenkins_home/workspace/pipeline_job/cognyte/example.py'
+                sh 'chmod 777 /var/jenkins_home/workspace/jenkinsfile/cognyte/example.sh'
+                sh '/var/jenkins_home/workspace/jenkinsfile/cognyte/example.sh'
+                sh 'chmod 777 /var/jenkins_home/workspace/jenkinsfile/cognyte/example.py'
+                sh 'python3 /var/jenkins_home/workspace/jenkinsfile/cognyte/example.py'
             }
         }
     }
