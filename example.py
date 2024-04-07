@@ -1,3 +1,3 @@
-print "hello world Tzachi"
+print ("hello world Tzachi")
 pwd
 ls -lrt
