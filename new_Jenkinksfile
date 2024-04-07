@@ -1,0 +1,11 @@
+pipeline {
+    agent any
+        stage('Run code'){
+            steps {
+                sh 'pwd'
+                sh 'ls -lrt'
+                sh 'df -kh'
+            }
+        }
+    }
+}
