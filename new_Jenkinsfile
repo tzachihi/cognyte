@@ -1,10 +1,12 @@
 pipeline {
     agent any
-        stage('Run code'){
+
+    stages {
+        stage('Run'){
             steps {
-                sh 'pwd'
-                sh 'ls -lrt'
-                sh 'df -kh'
+                sh 'echo Hello'
             }
         }
+
+    }
 }
