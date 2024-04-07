@@ -15,10 +15,8 @@ pipeline {
         stage('Run code'){
             steps {
                 sh 'pwd'
-                sh 'chmod 777 /var/jenkins_home/workspace/jenkins_file/cognyte/example.sh'
-                sh '/var/jenkins_home/workspace/jenkins_file/cognyte/example.sh'
-                sh 'chmod 777 /var/jenkins_home/workspace/jenkins_file/cognyte/example.py'
-                sh 'python3 /var/jenkins_home/workspace/jenkins_file/cognyte/example.py'
+                sh 'ls -lrt'
+                sh 'df -kh'
             }
         }
     }
